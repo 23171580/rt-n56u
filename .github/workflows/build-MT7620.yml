@@ -3,13 +3,13 @@ name: Build MT7620
 on: 
   release:
     types: [published]
-#  push:
+  push:
 #    tags:
 #    - 'v*'
-  #  branches: 
-  #    - master
+   branches: 
+     - master
   schedule:
-    - cron: 30 16 * * 6
+    - cron: 40 16 * * 6
 #  watch:
 #    types: [started]
 
